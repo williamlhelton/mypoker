@@ -30,8 +30,6 @@ class Card:
             return 11
         return int(self.value)
 
-    
-
 def createDeck():
     "create one 52-card, unshuffled deck"
     deck = []

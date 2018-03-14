@@ -18,7 +18,7 @@ def getName():
 
 def getNameSet():
     names = set()
-    counter = 8
+    counter = 9
     while counter >= 0:
         newName = getName()
         if newName in names:
@@ -41,6 +41,7 @@ class Player:
         Player.seat += 1
         self.chips = 1000
         self.hand = []
+        self.isDealer = False
     def __str__(self):
         return '{}: {}'.format(self.name, self.traits)
 
